@@ -25,6 +25,7 @@
     "util": "^0.12.4",
     "web-vitals": "2.1.4"
   },
+  "homepage": ".",
   "scripts": {
     "start": "craco start",
     "build": "craco build",
