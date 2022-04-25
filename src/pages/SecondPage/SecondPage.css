@@ -1,0 +1,54 @@
+.container-second-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    font-family: 'Nanum Gothic', sans-serif;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.container-second-page-one {
+    display: flex;
+    max-width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.container-second-page-one h1 {
+    font-size: 1.9em;
+    font-weight: 800;
+    color: #3F3D56;
+}
+
+.container-second-page-one h3 {
+    max-width: 75%;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.container-second-page-two {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+
+.container-second-page-two img {
+    width: 35%;
+}
+
+/* WAVE EFECTS */
+
+.wave-lib {
+    transform: rotate(180deg);
+    overflow: hidden;
+    position: absolute;
+    min-width: 100%;
+    z-index: -10;
+    top: 0;
+}

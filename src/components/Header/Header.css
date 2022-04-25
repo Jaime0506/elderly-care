@@ -1,0 +1,39 @@
+.container-header {
+    height: 60px;
+    background-color: rgb(39, 174, 96);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: minmax(60px, auto);
+    padding: .3em;
+}
+
+.container-title-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.title-header {
+    font-size: 24px;
+    color: white;
+}
+
+.container-icon-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 1em;
+}
+
+.container-second-bars {
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    display: flex;
+    height: 60px;
+    opacity: 0;
+    transition: opacity .3s;
+}
+

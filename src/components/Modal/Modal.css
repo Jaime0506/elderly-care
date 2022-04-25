@@ -1,0 +1,52 @@
+.overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity .5s ease;
+}
+
+.visible-overlay {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.modal {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 250px;
+    width: 65%;
+    position: relative;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.modal-icon {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    border-radius: 5px;
+    padding: 5px;
+    transition: background-color .5s ease;
+    cursor: pointer;
+}
+
+.modal-icon:hover {
+    background-color: #f2f2f2;
+}
+
+.modal-wrapper {
+    /* background-color: red; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

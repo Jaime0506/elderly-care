@@ -1,0 +1,28 @@
+
+.container-footer {
+    display: flex;
+    width: 100%;
+    height: 180px;
+    background-color: #ebebeb;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.container-footer-list {
+    display: flex;
+    gap: 25px;
+}
+
+li {
+    list-style: none;
+}
+
+.container-footer-text {
+    position: relative;
+    top: 30px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}

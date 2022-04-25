@@ -1,0 +1,102 @@
+.container-third-page {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.container-third-page-title {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-third-page-title h1 {
+    color: #3F3D56;
+    font-size: 2em;
+}
+
+.container-third-page-cards {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    gap: 4em;
+}
+
+.container-third-page-footer {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.container-third-page-footer h3 {
+    width: 90%;
+    color: #565656;
+    font-weight: 400;
+}
+
+.container-text-modal {
+    /* background-color: blue; */
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    padding-left: 10px;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.office-modal {
+    color: #27ae60;
+    font-size: 2em;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.title-modal {
+    color: #000;
+    font-size: 1.5;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.subtitle-modal {
+    width: 90%;
+    color: #464646;
+    text-align: justify;
+    line-height: 22px;
+}
+
+.button-modal {
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #dddddd;
+    cursor: pointer;
+    width: 90%;
+}
+
+.button-modal:hover {
+    background-color: #cfcfcf;
+}
+
+.container-image-modal {
+    /* background-color: red; */
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-modal {
+    width: 300px;
+    border-radius: 3px;
+}
+

@@ -1,0 +1,41 @@
+
+.container-first-page {
+    font-family: 'Nanum Gothic', sans-serif;
+    max-width: 100%;
+    display: grid;
+    padding: 20px;
+    grid-template-columns: repeat(2, 50%);
+}
+
+.container-first-page-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    text-align: center;
+    gap: 3em;
+}
+
+.container-first-page-one h1 {
+    color: rgb(39, 174, 96);
+    font-size: 2em;
+    font-weight: 800;
+}
+
+.container-first-page-one h3 {
+    color: #565656;
+    font-weight: 400;
+}
+
+.container-first-page-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 36em;
+}
+
+.image-first-page {
+    width: 25em;
+}

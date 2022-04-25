@@ -1,0 +1,63 @@
+.container-fourth-page {
+    display: flex;
+    width: 100%;
+}
+
+.container-fourth-page-text {
+    flex: 1;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+
+.container-fourth-page-text h1 {
+    color: #27AE60;
+    font-weight: 800;
+    font-size: 2em;
+}
+
+.container-fourth-page-text h3 {
+    font-weight: 400;
+    color: #3F3D56;
+    line-height: 40px;
+    font-size: 1.1em;
+    width: 85%;
+}
+
+.container-fourth-page-text h3 p {
+    color: #27AE60;
+    display: inline;
+}
+
+.container-fourth-page-text button {
+    display: flex;
+    width: 145px;
+    height: 55px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+    background-color: #27AE60;
+    color: white;
+    gap: 10px;
+    font-size: .9em;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.container-fourth-page-img {
+    flex: 1;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-fourth-page-img img {
+    width: 70%;
+}
+
