@@ -36,7 +36,7 @@ export default function SecondPage() {
 				<h3>Cuidar de adultos de mayor edad, que requieran unos cuidados especiales y atencion constante, con las personas y equipos necesarios para el mejor trato, sin hacerlos sentir como si estuviesen en un hospital</h3>
 			</div>
 			<div className='container-second-page-two'>
-				<img src='../assets/secondPage/secondPage.svg' alt="nurse enfermeras cuidado" />
+				<img src='./assets/secondPage/secondPage.svg' alt="nurse enfermeras cuidado" />
 			</div>
 		</section>
     )

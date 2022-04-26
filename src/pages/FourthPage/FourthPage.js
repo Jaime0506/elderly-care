@@ -30,7 +30,7 @@ export default function FourthPage() {
                 </button>
             </div>
             <div className="container-fourth-page-img">
-                <img src='../assets/fourthPage/Planet.svg' alt="planet ubication" />
+                <img src='./assets/fourthPage/Planet.svg' alt="planet ubication" />
             </div>
         </section>
     )

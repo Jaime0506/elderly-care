@@ -2,7 +2,7 @@
   "name": "adult-page",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jaime0506.github.io/adult-page/",
+  "homepage": "https://jaime0506.github.io/adult-page",
   "dependencies": {
     "@craco/craco": "6.4.3",
     "@fortawesome/fontawesome-svg-core": "6.1.0",
